@@ -69,16 +69,43 @@ nav a.red:hover{
 }
 
 main{
-
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-section.quadro{
 
+section#esporte{
+  margin-top: 20px;  
 }
 
-section.quadro img{
-    max-width: 200px;
+section#esporte img{
+    width: 70vw;
+    height: 250px;
 }
+
+.container{
+    position: relative;
+}
+
+.container img{
+    display: block;
+    width: 100%;
+}
+
+.texto{
+    position: absolute; /* Posiciona o texto em cima da imagem */
+    top: 80%;           /* Centraliza verticalmente */
+    left: 50%;          /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização perfeita */
+    color: white;       /* Cor do texto */
+    font-size: 2em;    /* Tamanho do texto */
+    font-weight: bold;  /* Negrito */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
 
 footer{
 
